@@ -24,4 +24,4 @@ pip install numpy
 pip install spotipy
 ```
 ### Project Execution Flow
-Extract Data From API --> Lambda Trigger (Every 1 hour) --> Run Extract Code --> Store Raw Data -->T= Trigger Transform Function -->Transform Data and Load it --> Create a Glue Crawler --> Glue Catalog Created --> Athena for Querying Purposes
+Extract Data From API --> Lambda Trigger (Every 1 hour) --> Run Extract Code --> Store Raw Data --> Trigger Transform Function -->Transform Data and Load it --> Create a Glue Crawler --> Glue Catalog Created --> Athena for Querying Purposes
